@@ -1,0 +1,307 @@
+<title>Freebie Board</title>
+<script src="data.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one narrow claim list, grouped by urgency, big claim button per row; filters on top, evergreen sources at the bottom. */
+:root{
+  --bg:#eef0f3; --surface:#ffffff; --fg:#161b26; --muted:#5b6475; --line:#d8dce4;
+  --accent:#e4572e; --accent-fg:#ffffff; --hot:#c0261b; --soon:#a15c00; --ok:#1f7a4d;
+  --chip:#e3e6ec;
+  --font-display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --font-body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f131b; --surface:#171c27; --fg:#e8ebf2; --muted:#98a1b3; --line:#2a3141;
+  --accent:#ff6b3d; --accent-fg:#16100d; --hot:#ff7b70; --soon:#f0b45a; --ok:#5fd39b; --chip:#232a38; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f131b; --surface:#171c27; --fg:#e8ebf2; --muted:#98a1b3; --line:#2a3141;
+  --accent:#ff6b3d; --accent-fg:#16100d; --hot:#ff7b70; --soon:#f0b45a; --ok:#5fd39b; --chip:#232a38; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:15px;line-height:1.45;padding-inline:16px}
+.wrap{max-width:860px;margin-inline:auto;padding-block:28px 56px;display:flex;flex-direction:column;gap:22px}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px}
+h1{font-family:var(--font-display);font-weight:800;font-size:clamp(30px,6vw,44px);line-height:1;margin:0;letter-spacing:-.02em;text-wrap:balance}
+.stamp{font-family:var(--font-mono);font-size:12px;color:var(--muted);text-align:right}
+.stamp b{color:var(--fg);font-weight:500}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chip{font:500 13px var(--font-body);background:var(--chip);color:var(--fg);border:1px solid transparent;border-radius:999px;padding:6px 12px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+.chip:focus-visible,.claim:focus-visible,select:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+select{font:500 13px var(--font-body);background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:6px 8px}
+.sp{flex:1}
+.stores{position:relative}
+.stores summary{list-style:none;cursor:pointer;font:500 13px var(--font-body);background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:6px 10px}
+.stores summary::-webkit-details-marker{display:none}
+.stores summary::after{content:" BE";color:var(--muted)}
+.stores summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.stores .menu{position:absolute;right:0;top:calc(100% + 6px);z-index:5;min-width:230px;max-height:60vh;overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px;display:flex;flex-direction:column;gap:6px;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.menu-actions{display:flex;gap:6px}
+.store-item{display:flex;align-items:center;gap:8px;font-size:13.5px;padding:3px 2px;cursor:pointer}
+.store-item input{width:16px;height:16px;accent-color:var(--accent)}
+.store-item .cnt{margin-left:auto;font:12px var(--font-mono);color:var(--muted)}
+.toggle{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted)}
+h2{font:600 12px var(--font-mono);text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin:0 0 8px;display:flex;gap:8px;align-items:center}
+h2 .n{background:var(--chip);color:var(--fg);border-radius:999px;padding:1px 8px}
+h2.hot{color:var(--hot)} h2.soon{color:var(--soon)}
+.list{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:10px;background:var(--surface);overflow:hidden}
+.row{display:grid;grid-template-columns:auto 1fr auto;gap:6px 14px;align-items:center;padding:12px 14px;border-top:1px solid var(--line)}
+.row:first-child{border-top:0}
+.row.done{opacity:.5}
+.row.done .t{text-decoration:line-through}
+.tick{width:20px;height:20px;accent-color:var(--ok)}
+.main{min-width:0}
+.t{font-weight:600;font-size:16px;overflow-wrap:anywhere}
+.meta{display:flex;flex-wrap:wrap;gap:4px 10px;font-size:12.5px;color:var(--muted);margin-top:2px}
+.tag{font:500 11px var(--font-mono);text-transform:uppercase;letter-spacing:.06em;border:1px solid var(--line);border-radius:4px;padding:0 5px;color:var(--fg)}
+.tag.req{border-color:var(--soon);color:var(--soon)}
+.left{font:500 12.5px var(--font-mono);font-variant-numeric:tabular-nums}
+.left.hot{color:var(--hot)} .left.soon{color:var(--soon)}
+.claim{background:var(--accent);color:var(--accent-fg);text-decoration:none;font:600 14px var(--font-body);border-radius:8px;padding:9px 16px;white-space:nowrap}
+.claim:hover{filter:brightness(1.08)}
+.actions{display:flex;flex-direction:column;align-items:stretch;gap:5px}
+.actions .claim{text-align:center}
+.mini{font:500 11.5px var(--font-body);background:transparent;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:3px 8px;cursor:pointer}
+.mini:hover{color:var(--fg);border-color:var(--muted)}
+.mini:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.note{grid-column:2/4;font-size:13px;color:var(--muted)}
+.empty{padding:28px 16px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:10px}
+.src{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
+.src a{display:block;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;text-decoration:none;color:var(--fg)}
+.src a:hover{border-color:var(--accent)}
+.src b{display:block;font-weight:600}
+.src span{font-size:12.5px;color:var(--muted)}
+footer{font-size:12.5px;color:var(--muted)}
+@media (max-width:520px){
+  .row{grid-template-columns:auto 1fr}
+  .actions{grid-column:1/3}
+  .note{grid-column:1/3}
+}
+@media (prefers-reduced-motion:no-preference){.claim{transition:filter .15s}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Freebie Board</h1>
+    <div class="stamp" id="stamp">Waiting for the first refresh…</div>
+  </header>
+
+  <div class="bar" role="group" aria-label="Filters">
+    <button class="chip" data-kind="game" aria-pressed="true">Games</button>
+    <button class="chip" data-kind="dlc" aria-pressed="false">DLC &amp; addons</button>
+    <button class="chip" data-kind="loot" aria-pressed="false">Skins &amp; loot</button>
+    <button class="chip" data-kind="drop" aria-pressed="false">Drops</button>
+    <button class="chip" data-kind="playtest" aria-pressed="false">Playtests</button>
+    <button class="chip" data-kind="all" aria-pressed="false">Everything</button>
+    <span class="sp"></span>
+    <details class="stores" id="storesBox">
+      <summary id="storesSum">Stores</summary>
+      <div class="menu">
+        <div class="menu-actions"><button type="button" class="mini" id="storesAll">All</button><button type="button" class="mini" id="storesNone">None</button></div>
+        <div id="storesList"></div>
+      </div>
+    </details>
+  </div>
+
+  <main id="out"><div class="empty">Loading offers…</div></main>
+
+  <section>
+    <h2>Always-on sources</h2>
+    <div class="src">
+      <a href="https://store.epicgames.com/free-games?lang=en-US" target="_blank" rel="noopener"><b>Epic free games</b><span>Weekly pair, claim on the page</span></a>
+      <a href="https://luna.amazon.de/claims/home" target="_blank" rel="noopener"><b>Amazon Luna claims</b><span>Prime Gaming games, claim here</span></a>
+      <a href="https://gaming.amazon.com/home" target="_blank" rel="noopener"><b>Prime Gaming loot</b><span>In-game loot and skins</span></a>
+      <a href="https://www.gog.com/en" target="_blank" rel="noopener"><b>GOG</b><span>Giveaway banner on the front page</span></a>
+      <a href="https://store.steampowered.com/search/?maxprice=free&specials=1" target="_blank" rel="noopener"><b>Steam: 100% off</b><span>Free to keep promos</span></a>
+      <a href="https://store.steampowered.com/search/?os=win&category1=998&specials=1&maxprice=free&supportedlang=english&hidef2p=1" target="_blank" rel="noopener"><b>Steam: free promos, no F2P</b><span>Paid games temporarily free</span></a>
+      <a href="https://store.steampowered.com/search/?term=playtest&category2=" target="_blank" rel="noopener"><b>Steam playtests</b><span>Request access on a game page</span></a>
+      <a href="https://www.twitch.tv/drops/campaigns" target="_blank" rel="noopener"><b>Twitch Drops</b><span>Active campaigns</span></a>
+      <a href="https://www.gamerpower.com/" target="_blank" rel="noopener"><b>GamerPower</b><span>Games, loot and beta keys</span></a>
+      <a href="https://gg.deals/games/free/" target="_blank" rel="noopener"><b>gg.deals free</b><span>Tracker of free games</span></a>
+      <a href="https://itch.io/games/free/on-sale" target="_blank" rel="noopener"><b>itch.io free sales</b><span>Paid games at 100% off</span></a>
+      <a href="https://freebies.indiegala.com/" target="_blank" rel="noopener"><b>IndieGala freebies</b><span>Free keys, no deadline</span></a>
+      <a href="https://www.reddit.com/r/FreeGameFindings/" target="_blank" rel="noopener"><b>r/FreeGameFindings</b><span>Community feed</span></a>
+    </div>
+  </section>
+
+  <footer>Board v12. Refreshed daily from Epic and GamerPower. Claimed ticks and store choices are saved in this browser only. Times shown in your local zone; some Prime end times are approximate.</footer>
+</div>
+
+<script>
+(function(){
+  var KIND={game:"Game",dlc:"DLC",loot:"Loot",drop:"Drop",playtest:"Playtest",bundle:"Bundle"};
+  var offers=[], meta=null, filterKind="game", claimed={}, blocked={}, hiddenStores={};
+  try{claimed=JSON.parse(localStorage.getItem("fb-claimed")||"{}")}catch(e){}
+  try{blocked=JSON.parse(localStorage.getItem("fb-blocked")||"{}")}catch(e){}
+  try{JSON.parse(localStorage.getItem("fb-hidden-stores")||"[]").forEach(function(k){hiddenStores[k]=1})}catch(e){}
+  var claimRef=null, writing=0, pending=false, logCol=null, logged={}, logReady=false;
+  function syncLog(){
+    if(!logCol||!logReady) return;
+    offers.forEach(function(o){
+      if(claimed[o.key]&&!logged[o.id]){
+        logged[o.id]=true;
+        var rec={title:o.title,store:o.store,kind:o.kind||"game",url:o.url||"",claimedAt:new Date().toISOString(),backfilled:!o.justClaimed};
+        logCol.doc(o.id).set(rec).catch(function(){delete logged[o.id]});
+      }
+    });
+  }
+  function unlog(o){if(logCol&&logged[o.id]){delete logged[o.id];logCol.doc(o.id).delete().catch(function(){})}}
+  function pushRemote(){
+    if(!claimRef) return;
+    if(writing){pending=true;return}
+    writing=1;
+    claimRef.set({keys:Object.keys(claimed),blocked:Object.keys(blocked),hiddenStores:Object.keys(hiddenStores)}).catch(function(){}).then(function(){
+      writing=0;if(pending){pending=false;pushRemote()}
+    });
+  }
+  function saveClaimed(){try{localStorage.setItem("fb-claimed",JSON.stringify(claimed));localStorage.setItem("fb-blocked",JSON.stringify(blocked));localStorage.setItem("fb-hidden-stores",JSON.stringify(Object.keys(hiddenStores)))}catch(e){}pushRemote()}
+  var out=document.getElementById("out"), stamp=document.getElementById("stamp"), storesList=document.getElementById("storesList"), storesSum=document.getElementById("storesSum");
+
+  function left(ms){
+    if(ms<=0) return "ended";
+    var m=Math.floor(ms/60000), h=Math.floor(m/60), d=Math.floor(h/24);
+    if(d>=2) return d+" days left";
+    if(h>=1) return h+"h "+(m%60)+"m left";
+    return m+"m left";
+  }
+  function el(tag,cls,text){var e=document.createElement(tag);if(cls)e.className=cls;if(text!=null)e.textContent=text;return e}
+  function safeUrl(u){
+    if(!/^https:\/\//.test(u||"")) return null;
+    // itch.io game pages: go straight to the purchase/claim page (shows the 100%-off claim button)
+    if(/^https:\/\/[a-z0-9-]+\.itch\.io\/[^\/?#]+\/?$/i.test(u)) return u.replace(/\/?$/,"/purchase");
+    return u;
+  }
+
+  function row(o,now){
+    var r=el("div","row"+(claimed[o.key]||blocked[o.key]?" done":""));
+    var cb=el("input","tick");cb.type="checkbox";cb.checked=!!claimed[o.key];cb.id="c-"+encodeURIComponent(o.key);cb.title="Mark as claimed";
+    cb.setAttribute("aria-label","Claimed: "+o.title);
+    cb.onchange=function(){if(cb.checked){claimed[o.key]=1;delete blocked[o.key];o.justClaimed=true}else{delete claimed[o.key];unlog(o)}saveClaimed();render()};
+    r.appendChild(cb);
+    var main=el("div","main");
+    main.appendChild(el("div","t",o.title));
+    var m=el("div","meta");
+    m.appendChild(el("span","tag",o.store));
+    m.appendChild(el("span","tag",KIND[o.kind]||o.kind));
+    if(o.requires){m.appendChild(el("span","tag req",o.requires))}
+    if(o.endsAt){
+      var ms=new Date(o.endsAt).getTime()-now;
+      var c=el("span","left"+(ms<48*36e5?" hot":ms<7*864e5?" soon":""),left(ms)+(o.endsApprox?" (approx.)":""));
+      c.title=new Date(o.endsAt).toLocaleString();
+      m.appendChild(c);
+    } else m.appendChild(el("span","left","no deadline listed"));
+    main.appendChild(m);
+    r.appendChild(main);
+    var u=safeUrl(o.url);
+    var act=el("div","actions");
+    if(u){var a=el("a","claim","Claim ↗");a.href=u;a.target="_blank";a.rel="noopener";a.setAttribute("aria-label","Claim "+o.title+" on "+o.store);act.appendChild(a)}
+    var mb=el("button","mini",blocked[o.key]?"Undo":"Can't claim");mb.type="button";
+    mb.title=blocked[o.key]?"Move back to the list":"Move to the unclaimable list (region lock, needs Prime, etc.)";
+    mb.onclick=function(){if(blocked[o.key])delete blocked[o.key];else{blocked[o.key]=1;delete claimed[o.key]}saveClaimed();render()};
+    act.appendChild(mb);r.appendChild(act);
+    if(o.note) r.appendChild(el("div","note",o.note));
+    return r;
+  }
+
+  function updateCount(){var b=stamp.querySelector('b');if(b)b.textContent=liveList.filter(function(o){return !claimed[o.key]&&!blocked[o.key]}).length+' unclaimed'}
+  var liveList=[];
+  function section(cls,label,items,now){
+    var s=el("section");
+    var h=el("h2",cls,label+" ");h.appendChild(el("span","n",String(items.length)));
+    s.appendChild(h);
+    var l=el("div","list");items.forEach(function(o){l.appendChild(row(o,now))});
+    s.appendChild(l);return s;
+  }
+
+  function render(){
+    var now=Date.now();
+    var live=offers.filter(function(o){return o.active!==false&&(!o.endsAt||new Date(o.endsAt).getTime()>now)});
+    var soon=live.filter(function(o){return o.startsAt&&new Date(o.startsAt).getTime()>now});
+    live=live.filter(function(o){return !(o.startsAt&&new Date(o.startsAt).getTime()>now)});
+    var stores=Array.from(new Set(live.map(function(o){return o.store}))).sort();
+    var counts={};live.forEach(function(o){if(!(filterKind==="all"||o.kind===filterKind))return;counts[o.store]=(counts[o.store]||0)+1});
+    storesList.innerHTML="";
+    var shown=0;
+    stores.forEach(function(st){
+      var lab=el("label","store-item");
+      var cb=el("input");cb.type="checkbox";cb.checked=!hiddenStores[st];cb.id="st-"+encodeURIComponent(st);
+      if(cb.checked)shown++;
+      cb.onchange=function(){if(cb.checked)delete hiddenStores[st];else hiddenStores[st]=1;saveClaimed();render()};
+      lab.appendChild(cb);lab.appendChild(el("span",null,st));lab.appendChild(el("span","cnt",String(counts[st]||0)));
+      storesList.appendChild(lab);
+    });
+    storesSum.textContent=shown===stores.length?"Stores: all":"Stores: "+shown+" of "+stores.length;
+
+    var vis=live.filter(function(o){
+      return (filterKind==="all"||o.kind===filterKind)&&!hiddenStores[o.store];
+    });
+    vis.sort(function(a,b){
+      var ta=a.endsAt?new Date(a.endsAt).getTime():Infinity, tb=b.endsAt?new Date(b.endsAt).getTime():Infinity;
+      return ta-tb||a.title.localeCompare(b.title);
+    });
+    out.innerHTML="";
+    var bad=vis.filter(function(o){return blocked[o.key]});
+    vis=vis.filter(function(o){return !blocked[o.key]});
+    var done=vis.filter(function(o){return claimed[o.key]});
+    vis=vis.filter(function(o){return !claimed[o.key]});
+    if(!vis.length){
+      if(!done.length&&!bad.length)out.appendChild(el("div","empty",offers.length?"Nothing matches these filters.":"No offers yet. The first daily refresh will fill this list."));else out.appendChild(el("div","empty","Nothing left to claim here."));
+    } else {
+      var g1=[],g2=[],g3=[];
+      vis.forEach(function(o){
+        var ms=o.endsAt?new Date(o.endsAt).getTime()-now:Infinity;
+        (ms<48*36e5?g1:ms<7*864e5?g2:g3).push(o);
+      });
+      var box=el("div");box.style.cssText="display:flex;flex-direction:column;gap:22px";
+      if(g1.length)box.appendChild(section("hot","Ends within 48 hours",g1,now));
+      if(g2.length)box.appendChild(section("soon","Ends this week",g2,now));
+      if(g3.length)box.appendChild(section("","Later or no deadline",g3,now));
+      out.appendChild(box);
+    }
+    var cs=soon.filter(function(o){return (filterKind==="all"||o.kind===filterKind)&&!hiddenStores[o.store]});
+    if(cs.length){
+      cs.sort(function(a,b){return new Date(a.startsAt)-new Date(b.startsAt)});
+      var s=el("section");var h=el("h2",null,"Coming soon ");h.appendChild(el("span","n",String(cs.length)));s.appendChild(h);
+      var l=el("div","list");
+      cs.forEach(function(o){
+        var r=el("div","row");r.style.gridTemplateColumns="1fr auto";
+        var main=el("div","main");main.appendChild(el("div","t",o.title));
+        var m=el("div","meta");m.appendChild(el("span","tag",o.store));m.appendChild(el("span","tag",KIND[o.kind]||o.kind));
+        var c=el("span","left","free from "+new Date(o.startsAt).toLocaleString([], {weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}));
+        m.appendChild(c);main.appendChild(m);r.appendChild(main);
+        var u=safeUrl(o.url);
+        if(u){var a=el("a","claim","Preview ↗");a.href=u;a.target="_blank";a.rel="noopener";a.style.background="var(--chip)";a.style.color="var(--fg)";r.appendChild(a)}
+        l.appendChild(r);
+      });
+      s.appendChild(l);out.appendChild(s);
+    }
+    if(done.length){var cbx=el("div");cbx.style.marginTop="22px";cbx.appendChild(section("","Claimed",done,now));out.appendChild(cbx)}
+    if(bad.length){var bx=el("div");bx.style.marginTop="22px";bx.appendChild(section("","Can't claim",bad,now));out.appendChild(bx)}
+    liveList=live;
+    syncLog();
+    var open=live.filter(function(o){return !claimed[o.key]&&!blocked[o.key]}).length;
+    stamp.innerHTML="";
+    var b=el("b",null,open+" unclaimed");stamp.appendChild(b);
+    stamp.appendChild(document.createTextNode(" of "+live.length+" live"));
+    if(meta&&meta.updatedAt){stamp.appendChild(document.createElement("br"));stamp.appendChild(document.createTextNode("refreshed "+new Date(meta.updatedAt).toLocaleString()))}
+  }
+
+  document.querySelectorAll(".chip").forEach(function(c){
+    c.onclick=function(){
+      filterKind=c.dataset.kind;
+      document.querySelectorAll(".chip").forEach(function(x){x.setAttribute("aria-pressed",String(x===c))});
+      render();
+    };
+  });
+  document.getElementById("storesAll").onclick=function(){hiddenStores={};saveClaimed();render()};
+  document.getElementById("storesNone").onclick=function(){stores_all().forEach(function(k){hiddenStores[k]=1});saveClaimed();render()};
+  function stores_all(){return Array.from(new Set(offers.map(function(o){return o.store})))}
+
+  render();
+  setInterval(render,60000);
+
+  var D=window.FREEBIES||{items:[]};
+  offers=D.items.map(function(x){x=Object.assign({},x);x.key=(x.store||"")+"|"+(x.title||x.id);return x});
+  meta={updatedAt:D.updatedAt};
+  render();
+})();
+</script>
