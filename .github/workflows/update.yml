@@ -3,6 +3,9 @@ on:
   schedule:
     - cron: "17 6 * * *"   # daily, 06:17 UTC
   workflow_dispatch:
+  push:
+    paths:
+      - extra.json
 permissions:
   contents: write
 jobs:

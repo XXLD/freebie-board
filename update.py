@@ -82,6 +82,9 @@ def main():
     if extra.exists():
         for i, d in enumerate(json.loads(extra.read_text(encoding="utf-8"))):
             items[f"extra-{i}"] = d
+    norm = lambda t: re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
+    extra_titles = {norm(d["title"]) for k, d in items.items() if k.startswith("extra-")}
+    items = {k: d for k, d in items.items() if k.startswith("extra-") or norm(d["title"]) not in extra_titles}
     for k, d in items.items():
         d["id"] = k
     data = {"updatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
