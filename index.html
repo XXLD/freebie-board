@@ -64,6 +64,11 @@ h2.hot{color:var(--hot)} h2.soon{color:var(--soon)}
 .mini:hover{color:var(--fg);border-color:var(--muted)}
 .mini:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .note{grid-column:2/4;font-size:13px;color:var(--muted)}
+.fold{display:flex;align-items:center;gap:10px;margin:0 0 8px}
+.fold h2{margin:0}
+.foldbtn{font:500 12px var(--font-body);background:transparent;color:var(--muted);border:1px solid var(--line);border-radius:6px;padding:3px 10px;cursor:pointer}
+.foldbtn:hover{color:var(--fg);border-color:var(--muted)}
+.foldbtn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .empty{padding:28px 16px;text-align:center;color:var(--muted);background:var(--surface);border:1px dashed var(--line);border-radius:10px}
 .src{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
 .src a{display:block;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;text-decoration:none;color:var(--fg)}
@@ -123,12 +128,14 @@ footer{font-size:12.5px;color:var(--muted)}
     </div>
   </section>
 
-  <footer>Board v12. Refreshed daily from Epic (Germany), GamerPower and a hand-checked list of Prime Gaming, GOG, Steam, itch.io and drop offers. Some offers are region-locked or need a Prime membership, so use Can't claim for the ones that do not work for you. Claimed ticks and store choices are saved in this browser only. Times shown in your local zone; some Prime end times are approximate.</footer>
+  <footer>Board v13. Refreshed daily from Epic (Germany), GamerPower and a hand-checked list of Prime Gaming, GOG, Steam, itch.io and drop offers. Some offers are region-locked or need a Prime membership, so use Can't claim for the ones that do not work for you. Claimed ticks and store choices are saved in this browser only. Times shown in your local zone; some Prime end times are approximate.</footer>
 </div>
 
 <script>
 (function(){
   var KIND={game:"Game",dlc:"DLC",loot:"Loot",drop:"Drop",playtest:"Playtest",bundle:"Bundle"};
+  var showDone=false, showBad=false;
+  try{showDone=localStorage.getItem("fb-show-claimed")==="1";showBad=localStorage.getItem("fb-show-bad")==="1"}catch(e){}
   var offers=[], meta=null, filterKind="game", claimed={}, blocked={}, hiddenStores={};
   try{claimed=JSON.parse(localStorage.getItem("fb-claimed")||"{}")}catch(e){}
   try{blocked=JSON.parse(localStorage.getItem("fb-blocked")||"{}")}catch(e){}
@@ -204,6 +211,20 @@ footer{font-size:12.5px;color:var(--muted)}
 
   function updateCount(){var b=stamp.querySelector('b');if(b)b.textContent=liveList.filter(function(o){return !claimed[o.key]&&!blocked[o.key]}).length+' unclaimed'}
   var liveList=[];
+  function foldSection(label,items,open,key,now){
+    var s=el("section");
+    var head=el("div","fold");
+    var h=el("h2",null,label+" ");h.appendChild(el("span","n",String(items.length)));
+    var b=el("button","foldbtn",open?"Hide":"Show");b.type="button";b.setAttribute("aria-expanded",String(open));
+    b.onclick=function(){
+      if(key==="done")showDone=!showDone;else showBad=!showBad;
+      try{localStorage.setItem(key==="done"?"fb-show-claimed":"fb-show-bad",(key==="done"?showDone:showBad)?"1":"0")}catch(e){}
+      render();
+    };
+    head.appendChild(h);head.appendChild(b);s.appendChild(head);
+    if(open){var l=el("div","list");items.forEach(function(o){l.appendChild(row(o,now))});s.appendChild(l)}
+    return s;
+  }
   function section(cls,label,items,now){
     var s=el("section");
     var h=el("h2",cls,label+" ");h.appendChild(el("span","n",String(items.length)));
@@ -274,8 +295,8 @@ footer{font-size:12.5px;color:var(--muted)}
       });
       s.appendChild(l);out.appendChild(s);
     }
-    if(done.length){var cbx=el("div");cbx.style.marginTop="22px";cbx.appendChild(section("","Claimed",done,now));out.appendChild(cbx)}
-    if(bad.length){var bx=el("div");bx.style.marginTop="22px";bx.appendChild(section("","Can't claim",bad,now));out.appendChild(bx)}
+    if(done.length){var cbx=el("div");cbx.style.marginTop="22px";cbx.appendChild(foldSection("Claimed",done,showDone,"done",now));out.appendChild(cbx)}
+    if(bad.length){var bx=el("div");bx.style.marginTop="22px";bx.appendChild(foldSection("Can't claim",bad,showBad,"bad",now));out.appendChild(bx)}
     liveList=live;
     syncLog();
     var open=live.filter(function(o){return !claimed[o.key]&&!blocked[o.key]}).length;
