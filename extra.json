@@ -1,13 +1,5 @@
 [
  {
-  "title": "Amnesia: The Bunker Steam key",
-  "store": "Alienware Arena",
-  "kind": "game",
-  "url": "https://www.alienwarearena.com/ucf/show/2176449/boards/contest-and-giveaways-global/Giveaway/amnesia-the-bunker-steam-game-key-giveaway",
-  "requires": "Free Alienware Arena account",
-  "note": "Steam key giveaway listed on Alienware Arena front page; end date not shown."
- },
- {
   "title": "Arena Breakout: Infinite Koen Pack",
   "store": "Alienware Arena",
   "kind": "loot",
@@ -48,14 +40,6 @@
   "note": "Playtest key giveaway listed on the Alienware Arena front page; end date not shown."
  },
  {
-  "title": "HELLCARD Steam key",
-  "store": "Alienware Arena",
-  "kind": "game",
-  "url": "https://www.alienwarearena.com/ucf/show/2176394/boards/contest-and-giveaways-global/Giveaway/hellcard-steam-game-key-giveaway",
-  "requires": "Free Alienware Arena account",
-  "note": "Steam key giveaway listed on Alienware Arena front page; end date not shown."
- },
- {
   "title": "KARDS Special Bundle",
   "store": "Alienware Arena",
   "kind": "loot",
@@ -72,12 +56,12 @@
   "note": "Limited keys; end date not shown."
  },
  {
-  "title": "Mimic Early Access key",
+  "title": "The Medium Steam key",
   "store": "Alienware Arena",
   "kind": "game",
-  "url": "https://www.alienwarearena.com/ucf/show/2176399/Giveaway/mimic-early-access-key-giveaway",
+  "url": "https://www.alienwarearena.com/ucf/show/2176401/boards/contest-and-giveaways-global/Giveaway/the-medium-steam-game-key-giveaway",
   "requires": "Free Alienware Arena account",
-  "note": "Key giveaway listed on Alienware Arena front page with Get Key button; end date not shown."
+  "note": "Steam key giveaway listed on Alienware Arena front page with Get Key button; end date not shown."
  },
  {
   "title": "Vaultbreakers Alpha Starter Pack key",
@@ -195,16 +179,6 @@
   "note": "Epic code (Luna)."
  },
  {
-  "title": "Hue",
-  "store": "Prime Gaming",
-  "kind": "game",
-  "url": "https://luna.amazon.de/claims/hue-epic/dp/amzn1.pg.item.d7de294d-c66d-4445-824d-ec9292fa1acb",
-  "endsAt": "2026-10-28T23:59:00Z",
-  "endsApprox": true,
-  "requires": "Prime",
-  "note": "Epic code (Luna)."
- },
- {
   "title": "Time Travel: Escape Room Game",
   "store": "Prime Gaming",
   "kind": "game",
@@ -313,6 +287,14 @@
   "note": "Stove giveaway via GamerPower, $24.99 value. End date unknown."
  },
  {
+  "title": "AION 2 Twitch drops (5 drops)",
+  "store": "Twitch",
+  "kind": "drop",
+  "url": "https://twitchdrops.app/game/aion-2",
+  "endsAt": "2026-11-04T07:59:59Z",
+  "note": "Watch eligible streams with your Twitch account linked to the game"
+ },
+ {
   "title": "ARC Raiders Twitch drops (2 drops)",
   "store": "Twitch",
   "kind": "drop",
@@ -333,7 +315,7 @@
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/albion-online",
-  "endsAt": "2026-10-29T09:29:59Z",
+  "endsAt": "2026-10-30T09:29:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -349,7 +331,7 @@
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/black-desert",
-  "endsAt": "2026-10-29T11:59:59Z",
+  "endsAt": "2026-10-30T11:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -361,11 +343,11 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Caliber Twitch drops (6 drops)",
+  "title": "Caliber Twitch drops (12 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/caliber",
-  "endsAt": "2026-10-29T19:59:59Z",
+  "endsAt": "2026-10-29T20:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -425,11 +407,12 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Coryphaeus Championships Twitch drops (1 drops)",
+  "title": "Crimson Desert Twitch drops (3 drops)",
   "store": "Twitch",
   "kind": "drop",
-  "url": "https://twitchdrops.app/game/coryphaeus-championships",
-  "endsAt": "2026-10-28T23:29:59Z",
+  "url": "https://twitchdrops.app/game/crimson-desert",
+  "startsAt": "2026-10-29T22:00:00Z",
+  "endsAt": "2026-11-04T23:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -489,14 +472,6 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Disney Dreamlight Valley Twitch drops (2 drops)",
-  "store": "Twitch",
-  "kind": "drop",
-  "url": "https://twitchdrops.app/game/disney-dreamlight-valley",
-  "endsAt": "2026-10-28T15:59:59Z",
-  "note": "Watch eligible streams with your Twitch account linked to the game"
- },
- {
   "title": "Don't Starve Together Twitch drops (3 drops)",
   "store": "Twitch",
   "kind": "drop",
@@ -513,19 +488,11 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "ELDEN RING Twitch drops (1 drops)",
-  "store": "Twitch",
-  "kind": "drop",
-  "url": "https://twitchdrops.app/game/elden-ring",
-  "endsAt": "2026-10-29T06:59:59Z",
-  "note": "Watch eligible streams with your Twitch account linked to the game"
- },
- {
   "title": "EVE Online Twitch drops (1 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/eve-online",
-  "endsAt": "2026-10-28T10:57:59Z",
+  "endsAt": "2026-10-31T10:57:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -561,11 +528,11 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "FELLOWSHIP Twitch drops (4 drops)",
+  "title": "FELLOWSHIP Twitch drops (8 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/fellowship-1",
-  "endsAt": "2026-11-05T00:33:59Z",
+  "endsAt": "2026-11-13T04:21:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -593,6 +560,14 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
+  "title": "GODDESS OF VICTORY: NIKKE Twitch drops (4 drops)",
+  "store": "Twitch",
+  "kind": "drop",
+  "url": "https://twitchdrops.app/game/goddess-of-victory-nikke",
+  "endsAt": "2026-11-18T14:59:59Z",
+  "note": "Watch eligible streams with your Twitch account linked to the game"
+ },
+ {
   "title": "GRAIN ROT Twitch drops (2 drops)",
   "store": "Twitch",
   "kind": "drop",
@@ -601,7 +576,7 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Gray Zone Warfare Twitch drops (10 drops)",
+  "title": "Gray Zone Warfare Twitch drops (7 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/gray-zone-warfare",
@@ -622,14 +597,6 @@
   "kind": "drop",
   "url": "https://twitchdrops.app/game/honkai-impact-3rd",
   "endsAt": "2026-11-19T09:59:59Z",
-  "note": "Watch eligible streams with your Twitch account linked to the game"
- },
- {
-  "title": "Hunt Club On Stream Twitch drops (3 drops)",
-  "store": "Twitch",
-  "kind": "drop",
-  "url": "https://twitchdrops.app/game/hunt-club-on-stream",
-  "endsAt": "2026-10-28T10:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -697,6 +664,15 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
+  "title": "Madden NFL 27 Twitch drops (1 drops)",
+  "store": "Twitch",
+  "kind": "drop",
+  "url": "https://twitchdrops.app/game/madden-nfl-27",
+  "startsAt": "2026-10-29T17:00:00Z",
+  "endsAt": "2026-10-30T16:59:59Z",
+  "note": "Watch eligible streams with your Twitch account linked to the game"
+ },
+ {
   "title": "Marvel Rivals Twitch drops (9 drops)",
   "store": "Twitch",
   "kind": "drop",
@@ -726,6 +702,14 @@
   "kind": "drop",
   "url": "https://twitchdrops.app/game/modern-warships",
   "endsAt": "2026-11-01T23:29:59Z",
+  "note": "Watch eligible streams with your Twitch account linked to the game"
+ },
+ {
+  "title": "Monster Hunter Outlanders Twitch drops (3 drops)",
+  "store": "Twitch",
+  "kind": "drop",
+  "url": "https://twitchdrops.app/game/monster-hunter-outlanders",
+  "endsAt": "2026-11-26T05:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -845,7 +829,7 @@
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/ravenquest",
-  "endsAt": "2026-10-28T14:59:59Z",
+  "endsAt": "2026-10-29T14:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -869,7 +853,7 @@
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/rise-online",
-  "endsAt": "2026-10-29T17:56:59Z",
+  "endsAt": "2026-10-30T17:56:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -889,7 +873,7 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Shakes and Fidget Twitch drops (10 drops)",
+  "title": "Shakes and Fidget Twitch drops (14 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/shakes-and-fidget",
@@ -913,14 +897,6 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Street Fighter 6 Twitch drops (1 drops)",
-  "store": "Twitch",
-  "kind": "drop",
-  "url": "https://twitchdrops.app/game/street-fighter-6",
-  "endsAt": "2026-10-28T19:59:59Z",
-  "note": "Watch eligible streams with your Twitch account linked to the game"
- },
- {
   "title": "Super Animal Royale Twitch drops (4 drops)",
   "store": "Twitch",
   "kind": "drop",
@@ -941,15 +917,7 @@
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/the-quinfall",
-  "endsAt": "2026-10-28T23:59:59Z",
-  "note": "Watch eligible streams with your Twitch account linked to the game"
- },
- {
-  "title": "UFL Twitch drops (2 drops)",
-  "store": "Twitch",
-  "kind": "drop",
-  "url": "https://twitchdrops.app/game/ufl",
-  "endsAt": "2026-10-28T23:58:59Z",
+  "endsAt": "2026-10-29T23:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -1001,7 +969,7 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Warhammer 40,000: Space Marine II Twitch drops (4 drops)",
+  "title": "Warhammer 40,000: Space Marine II Twitch drops (3 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/warhammer-40-000-space-marine-ii",
@@ -1025,15 +993,7 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Wolvesville Twitch drops (1 drops)",
-  "store": "Twitch",
-  "kind": "drop",
-  "url": "https://twitchdrops.app/game/wolvesville",
-  "endsAt": "2026-10-28T23:59:59Z",
-  "note": "Watch eligible streams with your Twitch account linked to the game"
- },
- {
-  "title": "World of Tanks Twitch drops (3 drops)",
+  "title": "World of Tanks Twitch drops (4 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/world-of-tanks",
@@ -1041,7 +1001,7 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "World of Tanks: HEAT Twitch drops (4 drops)",
+  "title": "World of Tanks: HEAT Twitch drops (3 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/world-of-tanks-heat",
@@ -1057,11 +1017,11 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "World of Warships Twitch drops (3 drops)",
+  "title": "World of Warships Twitch drops (4 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/world-of-warships",
-  "endsAt": "2026-10-29T16:59:59Z",
+  "endsAt": "2026-11-05T02:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
