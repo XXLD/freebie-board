@@ -16,14 +16,6 @@
   "note": "GamerPower redirect link; key unlock on Alienware Arena."
  },
  {
-  "title": "DREGS Steam key",
-  "store": "Alienware Arena",
-  "kind": "game",
-  "url": "https://eu.alienwarearena.com/ucf/show/2176440/boards/contest-and-giveaways-global/Giveaway/dregs-steam-game-key-giveaway",
-  "requires": "Free Alienware Arena account",
-  "note": "Steam key giveaway listed on Alienware Arena front page with Get Key button; end date not shown."
- },
- {
   "title": "Dead by Daylight 100k Bloodpoints key",
   "store": "Alienware Arena",
   "kind": "loot",
@@ -56,14 +48,6 @@
   "url": "https://www.gamerpower.com/open/kards-special-bundle-key-giveaway",
   "requires": "Free Alienware Arena account (10 ARP)",
   "note": "GamerPower redirect link; key unlock on Alienware Arena."
- },
- {
-  "title": "Layers of Fear Steam key",
-  "store": "Alienware Arena",
-  "kind": "game",
-  "url": "https://eu.alienwarearena.com/ucf/show/2176400/boards/contest-and-giveaways-global/Giveaway/layers-of-fear-steam-game-key-giveaway",
-  "requires": "Free Alienware Arena account",
-  "note": "Limited keys; end date not shown."
  },
  {
   "title": "The Medium Steam key",
@@ -255,14 +239,6 @@
   "note": "Free Steam key via GamerPower, $9.99 value. End date unknown."
  },
  {
-  "title": "Hexologic",
-  "store": "Steam",
-  "kind": "game",
-  "url": "https://store.steampowered.com/app/785890",
-  "endsAt": "2026-10-31T17:00:00Z",
-  "note": "100% off, free to keep until 31 Oct 10:00 PT."
- },
- {
   "title": "Hunting Simulator 3 - Classic American Hunter Pack",
   "store": "Steam",
   "kind": "dlc",
@@ -355,7 +331,7 @@
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/albion-online",
-  "endsAt": "2026-11-02T09:29:59Z",
+  "endsAt": "2026-11-03T09:29:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -367,7 +343,7 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Black Desert Twitch drops (7 drops)",
+  "title": "Black Desert Twitch drops (8 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/black-desert",
@@ -428,14 +404,6 @@
   "kind": "drop",
   "url": "https://twitchdrops.app/game/chattdt-tower-defense-twitch",
   "endsAt": "2026-11-01T23:59:59Z",
-  "note": "Watch eligible streams with your Twitch account linked to the game"
- },
- {
-  "title": "Coin Pusher Live Twitch drops (6 drops)",
-  "store": "Twitch",
-  "kind": "drop",
-  "url": "https://twitchdrops.app/game/coin-pusher-live",
-  "endsAt": "2026-10-31T23:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -511,19 +479,11 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Dragon's Dogma II Twitch drops (2 drops)",
+  "title": "ELDEN RING Twitch drops (1 drops)",
   "store": "Twitch",
   "kind": "drop",
-  "url": "https://twitchdrops.app/game/dragons-dogma-ii",
-  "endsAt": "2026-10-31T22:58:59Z",
-  "note": "Watch eligible streams with your Twitch account linked to the game"
- },
- {
-  "title": "EA Sports College Football 27 Twitch drops (1 drops)",
-  "store": "Twitch",
-  "kind": "drop",
-  "url": "https://twitchdrops.app/game/ea-sports-college-football-27",
-  "endsAt": "2026-10-31T16:59:59Z",
+  "url": "https://twitchdrops.app/game/elden-ring",
+  "endsAt": "2026-11-30T06:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -531,7 +491,7 @@
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/eve-online",
-  "endsAt": "2026-11-01T10:59:59Z",
+  "endsAt": "2026-11-02T10:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -555,6 +515,14 @@
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/epic-seven",
+  "endsAt": "2026-11-01T14:59:59Z",
+  "note": "Watch eligible streams with your Twitch account linked to the game"
+ },
+ {
+  "title": "Eternal Return Twitch drops (1 drops)",
+  "store": "Twitch",
+  "kind": "drop",
+  "url": "https://twitchdrops.app/game/eternal-return",
   "endsAt": "2026-11-01T14:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
@@ -679,6 +647,22 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
+  "title": "Kakele Online - MMORPG Twitch drops (1 drops)",
+  "store": "Twitch",
+  "kind": "drop",
+  "url": "https://twitchdrops.app/game/kakele-online-mmorpg",
+  "endsAt": "2026-11-15T11:59:59Z",
+  "note": "Watch eligible streams with your Twitch account linked to the game"
+ },
+ {
+  "title": "Krunker Twitch drops (4 drops)",
+  "store": "Twitch",
+  "kind": "drop",
+  "url": "https://twitchdrops.app/game/krunker",
+  "endsAt": "2026-11-08T23:59:59Z",
+  "note": "Watch eligible streams with your Twitch account linked to the game"
+ },
+ {
   "title": "League of Legends Twitch drops (3 drops)",
   "store": "Twitch",
   "kind": "drop",
@@ -727,19 +711,19 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Mobile Dungeon Twitch drops (4 drops)",
+  "title": "Mobile Dungeon Twitch drops (8 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/mobile-dungeon",
-  "endsAt": "2026-11-01T21:59:59Z",
+  "endsAt": "2026-11-08T21:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Modern Warships Twitch drops (8 drops)",
+  "title": "Modern Warships Twitch drops (3 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/modern-warships",
-  "endsAt": "2026-11-01T23:29:59Z",
+  "endsAt": "2026-11-08T23:29:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -751,11 +735,11 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "NARAKA: BLADEPOINT Twitch drops (3 drops)",
+  "title": "NARAKA: BLADEPOINT Twitch drops (5 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/naraka-bladepoint",
-  "endsAt": "2026-11-02T03:59:59Z",
+  "endsAt": "2026-11-09T03:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -791,7 +775,7 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Once Human Twitch drops (8 drops)",
+  "title": "Once Human Twitch drops (4 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/once-human",
@@ -899,7 +883,7 @@
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/rise-online",
-  "endsAt": "2026-11-01T17:56:59Z",
+  "endsAt": "2026-11-02T17:56:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -908,6 +892,14 @@
   "kind": "drop",
   "url": "https://twitchdrops.app/game/rust",
   "endsAt": "2026-11-01T23:58:59Z",
+  "note": "Watch eligible streams with your Twitch account linked to the game"
+ },
+ {
+  "title": "SMITE 2 Twitch drops (6 drops)",
+  "store": "Twitch",
+  "kind": "drop",
+  "url": "https://twitchdrops.app/game/smite-2",
+  "endsAt": "2026-11-07T10:57:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -975,11 +967,19 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
+  "title": "The Other Side Twitch drops (1 drops)",
+  "store": "Twitch",
+  "kind": "drop",
+  "url": "https://twitchdrops.app/game/the-other-side-1",
+  "endsAt": "2026-11-04T22:59:59Z",
+  "note": "Watch eligible streams with your Twitch account linked to the game"
+ },
+ {
   "title": "The Quinfall Twitch drops (1 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/the-quinfall",
-  "endsAt": "2026-10-31T23:59:59Z",
+  "endsAt": "2026-11-01T23:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -999,7 +999,7 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "VALORANT Twitch drops (2 drops)",
+  "title": "VALORANT Twitch drops (1 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/valorant",
@@ -1039,14 +1039,6 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Warframe Twitch drops (1 drops)",
-  "store": "Twitch",
-  "kind": "drop",
-  "url": "https://twitchdrops.app/game/warframe",
-  "endsAt": "2026-10-31T20:14:59Z",
-  "note": "Watch eligible streams with your Twitch account linked to the game"
- },
- {
   "title": "Where Winds Meet Twitch drops (6 drops)",
   "store": "Twitch",
   "kind": "drop",
@@ -1055,7 +1047,7 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "World of Tanks Twitch drops (7 drops)",
+  "title": "World of Tanks Twitch drops (6 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/world-of-tanks",
@@ -1102,10 +1094,50 @@
   "note": "Key giveaway; link is a GamerPower redirect. End date unknown."
  },
  {
+  "title": "(NEW UPDATE) Before Grand Opening",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://tgtstudio.itch.io/before-grand-opening",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "1001 Lives",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://bimicerika.itch.io/1001-vies",
+  "endsAt": "2026-11-04T22:59:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "1943",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://magnus-froelund.itch.io/1943",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "3 Minutes of Peaceful Building",
   "store": "itch.io",
   "kind": "game",
   "url": "https://mando37.itch.io/build-peacefully-for-3-minutes",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "30 Coins: The Consequences",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://alimsmgfan.itch.io/30-coins-the-concequences",
+  "endsAt": "2026-11-03T20:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "3gg Condition",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://nalio.itch.io/3gg-condition",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -1118,6 +1150,22 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "5 in 1 Retro Games",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://magnus-froelund.itch.io/5-in-1-retro-games",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "6Knives-episode1",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://chriv-games-horror.itch.io/6knives-episode1",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "9 Planets Alpha",
   "store": "itch.io",
   "kind": "game",
@@ -1126,19 +1174,43 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "ALL OF US UNDER THE MOON",
+  "title": "A Night Alone",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://hungryghostgames.itch.io/all-of-us-under-the-moon",
-  "endsAt": "2040-01-01T15:59:59Z",
-  "note": "100% off, long-running sale"
+  "url": "https://boshuaproductions.itch.io/a-night-alone",
+  "endsAt": "2026-11-01T13:30:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "ATONEMENT",
+  "title": "A Potion For Chamomile",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://glitchedlizard.itch.io/atonement",
-  "endsAt": "2026-11-01T04:00:00Z",
+  "url": "https://kyaniteheart.itch.io/a-potion-for-chamomile",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "AI Data Center Tycoon",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://purplejelly.itch.io/ai-data-center-tycoon",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "AI Race Tycoon",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://timothystudios.itch.io/ai-race-tycoon",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "ALIEN WAR - Invasion Reserved",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://roega.itch.io/alien-warinvasionreserved",
+  "endsAt": "2026-11-04T22:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
@@ -1174,14 +1246,6 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "Akishiro",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://stabidi-chan.itch.io/akishiro",
-  "endsAt": "2026-11-04T18:00:00Z",
-  "note": "100% off itch.io sale (Download or claim). $1.00 value."
- },
- {
   "title": "Alex",
   "store": "itch.io",
   "kind": "game",
@@ -1194,7 +1258,7 @@
   "store": "itch.io",
   "kind": "game",
   "url": "https://almericusdev.itch.io/almericus-scarred-islands",
-  "endsAt": "2026-11-02T01:06:00Z",
+  "endsAt": "2026-11-04T18:00:00Z",
   "endsApprox": false,
   "note": "100% off ($15.99 normally), verified; sale ends 2026-11-02."
  },
@@ -1231,6 +1295,22 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Aquatic Grave",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://liminace.itch.io/aquatic-grave",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Are you There?",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://magnus-froelund.itch.io/are-you-there",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Aria Fantasy Adventure",
   "store": "itch.io",
   "kind": "game",
@@ -1255,6 +1335,14 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Astral Jack: Night of the Cosmic Relics Commodore 64",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://tansoft.itch.io/astral-jack-night-of-the-cosmic-relics",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "At Sixes And Sevens Case I",
   "store": "itch.io",
   "kind": "game",
@@ -1264,10 +1352,66 @@
   "note": "100% off ($1.99 normally), verified; sale ends 2026-10-22."
  },
  {
+  "title": "Autumn Leaves",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://kyaniteheart.itch.io/autumnleaves",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "AvoidX: Demo",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://snailatelier.itch.io/avoidx-demo",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Awakened Beauty",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://liminace.itch.io/awakened-beauty",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Axiom Protocol",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://myles120-tech.itch.io/axiom-protocol",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "BOXISM",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://monoarena.itch.io/boxism",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "BUBBLE GROTTO",
   "store": "itch.io",
   "kind": "game",
   "url": "https://tansoft.itch.io/bubble-grotto",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Baba",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://light-inspiration-studio.itch.io/baba",
+  "endsAt": "2026-11-06T12:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Back Rooms-NEW UPDATE AVAILABLE!!(1.5)",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://liminalforgegames.itch.io/back-rooms",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -1313,18 +1457,34 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "Baldi's Basics Songkran In Education And Learning X",
+  "title": "Backrooms: Out of Oxygen",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://sj-logo-transparent.itch.io/baldis-basics-songkran-in-education-and-learning-x",
-  "endsAt": "2026-11-01T11:00:00Z",
-  "note": "100% off, verified."
+  "url": "https://slothcube-studios.itch.io/backrooms-out-of-oxygen",
+  "endsAt": "2026-12-30T00:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "Ballot or Barracks",
   "store": "itch.io",
   "kind": "game",
   "url": "https://tkngamesoffical.itch.io/ballot-or-barracks",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Banknotes Memory Puzzle",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://unaux-25917242.itch.io/banknotes-memory-puzzle",
+  "endsAt": "2026-11-30T17:02:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Basic Shooter (Pre Alpha)",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://magnus-froelund.itch.io/campers-killers-pre-alpha",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -1337,10 +1497,34 @@
   "note": "100% off, verified."
  },
  {
+  "title": "Bedrot",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://liminace.itch.io/bedrot",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Beefy Boi Demo",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://angrytoastergames.itch.io/beefy-boi",
+  "endsAt": "2031-10-24T14:42:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Before Dawn",
   "store": "itch.io",
   "kind": "game",
   "url": "https://wtl666wtl.itch.io/before-dawn",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Bellfall",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://kyaniteheart.itch.io/bellfall",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -1377,10 +1561,26 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Blood Bond Bound: Grudges Past",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://anethicalcannibal.itch.io/blood-bond-bound-grudges-past",
+  "endsAt": "2026-11-04T21:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Bonerunner",
   "store": "itch.io",
   "kind": "game",
   "url": "https://khaled-khader.itch.io/bonerunner",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Boomtown",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://steveromain.itch.io/boomtown",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -1409,6 +1609,14 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Brickstellar",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://pixalab.itch.io/brickstellar",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Buckler 2",
   "store": "itch.io",
   "kind": "game",
@@ -1417,11 +1625,35 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "BugZonia",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://caeldeth1.itch.io/bugzonia",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Bunny Hill Horror",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://krunchyfriedgames.itch.io/bunny-hill-horror",
+  "endsAt": "2026-12-31T23:59:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Bunny Hill Horror: Bunny Boiler",
   "store": "itch.io",
   "kind": "game",
   "url": "https://krunchyfriedgames.itch.io/bunny-hill-horror-bunny-boiler",
   "endsAt": "2026-12-31T23:59:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Bunny's Quest",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://friendlychickens.itch.io/bunnys-quest",
+  "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
@@ -1441,6 +1673,14 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "CHAGA",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://grisk.itch.io/chaga",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "CIVIMAX",
   "store": "itch.io",
   "kind": "game",
@@ -1455,14 +1695,6 @@
   "url": "https://virtuaworlds.itch.io/columns",
   "endsAt": "2032-08-09T14:20:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
- },
- {
-  "title": "COMMONS RIDER",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://hungryghostgames.itch.io/commons-rider",
-  "endsAt": "2040-01-01T15:59:59Z",
-  "note": "100% off, long-running sale"
  },
  {
   "title": "CTHON",
@@ -1485,17 +1717,17 @@
   "store": "itch.io",
   "kind": "game",
   "url": "https://alexander-wiseman.itch.io/cult-of-flies",
-  "endsAt": "2026-11-01T04:59:00Z",
+  "endsAt": "2026-11-04T18:00:00Z",
   "endsApprox": false,
   "note": "100% off ($5.00 normally), verified; sale ends 2026-11-01."
  },
  {
-  "title": "CURTAIN",
+  "title": "Cabin Fever!!!",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://dreamfeel.itch.io/curtain",
-  "endsAt": "2030-02-19T03:00:00Z",
-  "note": "100% off, long-running sale"
+  "url": "https://liminace.itch.io/cabin-fever",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "Calmed by the Dark Aftermath",
@@ -1546,6 +1778,14 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "CaseOh’s House",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://ji10-games.itch.io/caseohs-house",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Castle Clash",
   "store": "itch.io",
   "kind": "game",
@@ -1578,6 +1818,14 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Chaotic Ascent",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://maximilian.itch.io/chaotic-ascent",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Cherophobia",
   "store": "itch.io",
   "kind": "game",
@@ -1587,10 +1835,26 @@
   "note": "100% off ($1.99 normally), verified; sale ends 2026-10-22."
  },
  {
+  "title": "Cinder — An Odyssey",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://mo-games-1.itch.io/cinder-an-odyssey",
+  "endsAt": "2026-11-29T23:16:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Circular Pong",
   "store": "itch.io",
   "kind": "game",
   "url": "https://simonbalint.itch.io/circular-pong",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Coin and Zombie",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://play-at-work.itch.io/coin-and-zombie",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -1603,18 +1867,26 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "Cozy Tunes + Cozy FX",
+  "title": "Courting Death",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://pizzadoggy.itch.io/cozy-tunes",
-  "endsAt": "2026-11-09T22:00:00Z",
-  "note": "100% off, audio pack"
+  "url": "https://jennahveer.itch.io/courting-death",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "Cryptid Catch",
   "store": "itch.io",
   "kind": "game",
   "url": "https://comix-studios.itch.io/crypto-catch",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Cyber Delivery: Neon Grid",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://vishnu-jha.itch.io/cyber-delivery-neon-grid",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -1627,19 +1899,19 @@
   "note": "100% off itch.io sale (Download or claim). $7.00 value."
  },
  {
-  "title": "DEAL WITH THE DEVIL",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://hungryghostgames.itch.io/deal-with-the-devil",
-  "endsAt": "2040-01-01T15:59:59Z",
-  "note": "100% off, card game, long-running sale"
- },
- {
   "title": "DETUNED",
   "store": "itch.io",
   "kind": "game",
   "url": "https://apehardware.itch.io/detuned",
   "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "DONT LEAVE — CHAPTER 1 THE SEVEN BEARS",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://abmanstudio.itch.io/dont-leave-chapter-1-the-seven-bears",
+  "endsAt": "2026-11-30T12:54:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
@@ -1658,6 +1930,22 @@
   "url": "https://all-kinds-of-games.itch.io/draw-place-run",
   "endsAt": "2026-11-16T21:06:00Z",
   "note": "100% off ($1.00 normally), verified $0; sale ends 2026-11-16."
+ },
+ {
+  "title": "DRIFTERZ Alpha",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://0bsessi0n.itch.io/drifterz-alpha",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "DUELIX",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://ethan-uzii.itch.io/duelix",
+  "endsAt": "2026-11-05T20:30:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "DUNGEONBLADE - HAUNTED KINGDOM",
@@ -1708,21 +1996,20 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "Dating Your Overthinking",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://malevolent-void-studio.itch.io/dating-your-overthinking",
-  "endsAt": "2026-12-01T18:00:00Z",
-  "endsApprox": false,
-  "note": "100% off ($1.00 normally), verified $0; sale ends 2026-11-11."
- },
- {
   "title": "De Offectibus - Ritual",
   "store": "itch.io",
   "kind": "game",
   "url": "https://yazorius.itch.io/deoffectibus",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off ($1.00 normally), verified $0; sale ends 2026-11-04."
+ },
+ {
+  "title": "Dead Mall",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://cosmicraycast.itch.io/deadmall",
+  "endsAt": "2026-11-05T06:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "Dead Yard",
@@ -1772,6 +2059,14 @@
   "url": "https://that-lemon-dev.itch.io/difficult-driving-2",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off, verified $0."
+ },
+ {
+  "title": "Diuxia",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://eiryudev.itch.io/diuxia",
+  "endsAt": "2026-11-27T18:29:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "Do You Have a Moment to Talk About Our Lord and Savior?",
@@ -1863,6 +2158,14 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Dot spot",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://wolfteng-studio.itch.io/dot-spot",
+  "endsAt": "2026-11-27T20:40:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Downsizing.exe (DEMO)",
   "store": "itch.io",
   "kind": "game",
@@ -1871,11 +2174,19 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Dracula Memory Puzzle",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://unaux-25917242.itch.io/dracula-memory-puzzle",
+  "endsAt": "2026-11-30T17:02:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Drain The Lake with a Spoon",
   "store": "itch.io",
   "kind": "game",
   "url": "https://barhe.itch.io/drain-the-lake-with-a-spoon",
-  "endsAt": "2026-10-31T18:21:00Z",
+  "endsAt": "2026-11-04T18:00:00Z",
   "endsApprox": false,
   "note": "100% off ($1.20 normally), verified; sale ends 2026-10-31."
  },
@@ -1920,6 +2231,14 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Días contados",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://folustecno.itch.io/dias-contados",
+  "endsAt": "2026-11-24T00:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Easy as Pi",
   "store": "itch.io",
   "kind": "game",
@@ -1937,11 +2256,75 @@
   "note": "100% off ($1.99 normally), verified; sale ends 2026-11-04."
  },
  {
+  "title": "Egg Condition: Unblinded",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://nalio.itch.io/egg-condition-unblinded",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Eggy Egg",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://raza70348.itch.io/eggy-egg",
+  "endsAt": "2027-01-31T11:49:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Egypt Commander",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://caeldeth1.itch.io/egypt-commander",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Enoch Never Dies",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://dylancassidy.itch.io/enoch-never-dies",
+  "endsAt": "2026-11-03T05:59:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Entry Vector",
   "store": "itch.io",
   "kind": "game",
   "url": "https://athanode.itch.io/entry-vector",
-  "endsAt": "2026-11-01T02:58:00Z",
+  "endsAt": "2026-11-07T02:58:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Eternity Defenders",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://kakaritogames.itch.io/eternity-defenders",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Euli Beuli RUN",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://roega.itch.io/euli-beuli-run",
+  "endsAt": "2026-11-04T22:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Euli Beuli STRIKE - new serve",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://roega.itch.io/euli-beuli-strike-new-serve",
+  "endsAt": "2026-11-04T22:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Evertrust Life And Beyond (Full Game)",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://after-life-craft.itch.io/evertrust-life-beyond",
+  "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
@@ -1953,20 +2336,28 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "Evolvedustry",
+  "title": "EvsE",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://evolvedustry.itch.io/evolvedustry",
-  "endsAt": "2026-12-12T07:00:00Z",
-  "note": "100% off"
+  "url": "https://gkolberg.itch.io/evse",
+  "endsAt": "2026-11-10T22:59:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "FAMILY + SPY",
+  "title": "Exorcize Me",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://hungryghostgames.itch.io/familyspy",
-  "endsAt": "2040-01-01T15:59:59Z",
-  "note": "100% off, long-running sale"
+  "url": "https://liminace.itch.io/exorcize-me",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "FRACTURED PSYCHE (PC & Android)",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://batpan-games.itch.io/fractured-psyche",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "Fabric",
@@ -1976,6 +2367,22 @@
   "endsAt": "2028-08-26T02:34:00Z",
   "endsApprox": true,
   "note": "100% off ($1.00 normally), verified on game page; claim to keep."
+ },
+ {
+  "title": "Family Manners",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://nney.itch.io/family-manners",
+  "endsAt": "2026-11-06T21:12:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Family Secrets 1 : Empty Plate",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://badcat-games.itch.io/family-secrets-1-empty-plate",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "Fancy Farm Brawl",
@@ -1990,7 +2397,7 @@
   "store": "itch.io",
   "kind": "game",
   "url": "https://jimmydave.itch.io/fastwait",
-  "endsAt": "2026-10-31T13:19:00Z",
+  "endsAt": "2026-11-05T14:19:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
@@ -2015,15 +2422,23 @@
   "store": "itch.io",
   "kind": "game",
   "url": "https://sketch-octopus.itch.io/flame-gutter",
-  "endsAt": "2026-10-31T15:00:00Z",
+  "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off, verified."
+ },
+ {
+  "title": "Flap Dash",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://vishnu-jha.itch.io/flap-dash",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "Floor unknown",
   "store": "itch.io",
   "kind": "game",
   "url": "https://thehandcrafter.itch.io/floor-unknown",
-  "endsAt": "2026-10-31T23:00:00Z",
+  "endsAt": "2026-11-29T23:00:00Z",
   "endsApprox": false,
   "note": "100% off ($6.66 normally), verified; sale ends 2026-10-31."
  },
@@ -2061,6 +2476,14 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Four Before Midnight",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://arc-res.itch.io/four-before-midnight",
+  "endsAt": "2026-11-02T06:59:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Fractured: Roadwood Stop",
   "store": "itch.io",
   "kind": "game",
@@ -2090,6 +2513,14 @@
   "kind": "game",
   "url": "https://wiktor-games.itch.io/franks-trail",
   "endsAt": "2026-11-08T11:06:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Fuse & Flood",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://pisu96.itch.io/fuse-flood",
+  "endsAt": "2026-11-30T14:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
@@ -2133,6 +2564,14 @@
   "note": "100% off on itch.io (sale)"
  },
  {
+  "title": "Get Past It!",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://nomisra.itch.io/get-past-it",
+  "endsAt": "2026-11-30T23:59:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Ghost2:TheMaze",
   "store": "itch.io",
   "kind": "game",
@@ -2145,6 +2584,14 @@
   "store": "itch.io",
   "kind": "game",
   "url": "https://jonathan-linux.itch.io/ghosttheforest",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Giant Stomp",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://maximilian.itch.io/giant-stomp",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -2165,6 +2612,14 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Going for Nuts",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://crazy-mage.itch.io/going-for-nuts",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Going for Nuts - Fun on the go!",
   "store": "itch.io",
   "kind": "game",
@@ -2173,26 +2628,26 @@
   "note": "100% off ($2.99 normally), verified on game page; claim to keep."
  },
  {
-  "title": "GravMetal",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://gummyrage.itch.io/gravmetal",
-  "endsAt": "2026-11-01T00:00:00Z",
-  "note": "100% off on itch.io (sale), claim to keep"
- },
- {
-  "title": "GravMetal 2: DOUBLE THREAT",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://gummyrage.itch.io/gravmetal-chapter-2",
-  "endsAt": "2026-11-01T00:00:00Z",
-  "note": "100% off on itch.io (sale), claim to keep"
- },
- {
   "title": "Grave Guard",
   "store": "itch.io",
   "kind": "game",
   "url": "https://wiedzmiz.itch.io/grave-guard",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Guaishou _ PROTOTYPE",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://apophenia-23.itch.io/guaishou-proto",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Guaishou 怪兽",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://apophenia-23.itch.io/guaishou",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -2205,10 +2660,34 @@
   "note": "100% off ($3.54 normally), verified $0; sale ends 2026-11-04."
  },
  {
+  "title": "Halloween Guests",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://chriv-games-horror.itch.io/halloween-guests",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Hampton Court",
   "store": "itch.io",
   "kind": "game",
   "url": "https://chrisiscreative.itch.io/hampton-court",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Haunt Watch",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://blackdevgames.itch.io/haunt-watch",
+  "endsAt": "2031-12-06T18:05:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Haven 2",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://bluestar-games.itch.io/haven",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -2229,6 +2708,22 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Hellbound 2: Ghost of El Diablo",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://sodafrizz-og.itch.io/hellbound-ghost-of-el-diablo",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Hellbound: Reign of El Diablo",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://sodafrizz-og.itch.io/hellbound",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Here We Go Again",
   "store": "itch.io",
   "kind": "game",
@@ -2245,6 +2740,22 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "HorriFied: Survive the Night!",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://dentist-games.itch.io/horrified-survive-the-night",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Horror Serum",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://powstudio.itch.io/horrorserum",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "House Cleaner",
   "store": "itch.io",
   "kind": "game",
@@ -2257,6 +2768,14 @@
   "store": "itch.io",
   "kind": "game",
   "url": "https://al7ussain.itch.io/house-cleaner-2",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Hungry Hippo in the Water",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://maximilian.itch.io/hungry-hippo-in-the-water",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -2277,12 +2796,52 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "I Think I Need Your Help",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://kyaniteheart.itch.io/i-think-i-need-your-help",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "If the Shoe Fits",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://liminace.itch.io/if-the-shoe-fits",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Inertia",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://maximilian.itch.io/inertia",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Infectious Blocks",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://mando37.itch.io/infectious-blocks",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Infernal Power Co.",
   "store": "itch.io",
   "kind": "game",
   "url": "https://wgnspear.itch.io/infernal-power-co",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off itch.io sale (Download or claim). $1.99 value."
+ },
+ {
+  "title": "Infinite Bathhouse",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://elizabeth-szprejda.itch.io/infinite-bathhouse",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "Innsmouse",
@@ -2334,6 +2893,22 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Jam and the Mystery of the Mysteriously Spooky Mansion",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://arc-res.itch.io/jam-and-the-mystery-of-the-mysteriously-spooky-mansion",
+  "endsAt": "2026-11-02T06:59:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Just Follow The Path",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://chriv-games-horror.itch.io/just-follow-the-path",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "KAWAPS",
   "store": "itch.io",
   "kind": "game",
@@ -2366,12 +2941,20 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "Kingsport, 1921: The Legacy",
+  "title": "Knight Quest The Dusk Tower",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://zhappo.itch.io/kingsport-1921",
-  "endsAt": "2026-10-31T23:59:00Z",
-  "note": "100% off ($2.99 normally), verified $0; sale ends 2026-10-31."
+  "url": "https://rob771.itch.io/knights-quest-the-dusk-tower",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Knight Slide GBA",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://precagames.itch.io/knight-slide-gba",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "Krunchy Fried Games Kollection",
@@ -2395,14 +2978,6 @@
   "kind": "game",
   "url": "https://reganc.itch.io/last-friday",
   "endsAt": "2026-11-04T18:00:00Z",
-  "note": "100% off on itch.io (sale), claim to keep"
- },
- {
-  "title": "Last Lantern",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://whitewolflgd.itch.io/last-lantern",
-  "endsAt": "2026-11-04T21:59:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
@@ -2430,14 +3005,6 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "Late Order",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://glodory-studio.itch.io/late-night",
-  "endsAt": "2026-11-04T18:00:00Z",
-  "note": "100% off ($1.99 normally)."
- },
- {
   "title": "Late Pizza Delivery",
   "store": "itch.io",
   "kind": "game",
@@ -2451,6 +3018,14 @@
   "kind": "game",
   "url": "https://the-kat-kcompany.itch.io/let-me-sleep-chapter-1",
   "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Levov School",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://light-inspiration-studio.itch.io/levov-school",
+  "endsAt": "2026-11-06T12:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
@@ -2478,34 +3053,18 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "Liminal Lane",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://ravenhome.itch.io/liminal-lane",
-  "endsAt": "2026-11-01T11:01:00Z",
-  "note": "100% off on itch.io (sale), claim to keep"
- },
- {
-  "title": "Liminal Space Holiday",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://ravenhome.itch.io/liminal-space-holiday",
-  "endsAt": "2026-11-01T11:01:00Z",
-  "note": "100% off on itch.io (sale), claim to keep"
- },
- {
-  "title": "Linda & Joan Prologue: Four Months Earlier",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://falsevacuum.itch.io/linda-joan-prologue",
-  "endsAt": "2026-12-31T15:58:00Z",
-  "note": "100% off, visual novel"
- },
- {
   "title": "Live again",
   "store": "itch.io",
   "kind": "game",
   "url": "https://emmanuel-rosas.itch.io/live-again",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "LogiVale",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://robinvda.itch.io/logivale",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -2530,7 +3089,7 @@
   "store": "itch.io",
   "kind": "game",
   "url": "https://hexnut-studios.itch.io/lord-of-chaos",
-  "endsAt": "2026-10-31T18:00:00Z",
+  "endsAt": "2026-11-04T18:00:00Z",
   "endsApprox": false,
   "note": "100% off ($3.99 normally), verified $0; sale ends 2026-10-21."
  },
@@ -2551,12 +3110,20 @@
   "note": "100% off, verified."
  },
  {
-  "title": "Love is the Plan, the Plan is Death",
+  "title": "Love in Everblood!!!! - Episode 1",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://blood-w.itch.io/love-is-the-plan-the-plan-is-death",
-  "endsAt": "2047-05-05T04:00:00Z",
-  "note": "100% off, long-running sale"
+  "url": "https://liminace.itch.io/love-in-everblood-episode-1",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Lurking Shadows",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://blackdevgames.itch.io/lurking-shadows",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "MOLOKAUST",
@@ -2571,7 +3138,7 @@
   "store": "itch.io",
   "kind": "game",
   "url": "https://biasio.itch.io/madpillgambit",
-  "endsAt": "2026-11-01T08:37:00Z",
+  "endsAt": "2026-11-04T18:00:00Z",
   "endsApprox": false,
   "note": "100% off (1.00€ normally), verified; sale ends 2026-11-01."
  },
@@ -2584,6 +3151,30 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Maneater",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://liminace.itch.io/maneater",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Margin Brawl",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://hoehnheim.itch.io/margin-brawl",
+  "endsAt": "2026-11-05T05:59:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Maze",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://al7ussain.itch.io/maze",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Me and My Eldritch Parasite",
   "store": "itch.io",
   "kind": "game",
@@ -2592,18 +3183,18 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Meerk Hunt (Demo)",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://velth.itch.io/meerk-hunt",
+  "endsAt": "2027-07-03T17:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Metal Box",
   "store": "itch.io",
   "kind": "game",
   "url": "https://nan618.itch.io/metalbox",
-  "endsAt": "2026-11-04T18:00:00Z",
-  "note": "100% off on itch.io (sale), claim to keep"
- },
- {
-  "title": "Midnight Pizza",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://glodory-studio.itch.io/midnight-pizza",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -2628,7 +3219,7 @@
   "store": "itch.io",
   "kind": "game",
   "url": "https://coastcitygames.itch.io/mind-the-clown-reborn",
-  "endsAt": "2026-10-31T15:39:00Z",
+  "endsAt": "2026-11-05T20:56:00Z",
   "note": "100% off, verified on itch.io sale page."
  },
  {
@@ -2637,6 +3228,14 @@
   "kind": "game",
   "url": "https://pink-blood.itch.io/mindcelium",
   "endsAt": "2026-11-01T20:55:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Mini Maltia",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://vishnu-jha.itch.io/mini-maltia",
+  "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
@@ -2661,17 +3260,24 @@
   "store": "itch.io",
   "kind": "game",
   "url": "https://barhe.itch.io/move-the-mountain-with-a-spoon",
-  "endsAt": "2026-10-31T18:21:00Z",
+  "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale)"
  },
  {
-  "title": "My Bucket Project",
+  "title": "Mukbang Idol",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://jeyers-development.itch.io/mbp",
-  "endsAt": "2026-10-31T16:00:00Z",
-  "endsApprox": false,
-  "note": "100% off ($2.99 normally), verified; sale ends 2026-10-31."
+  "url": "https://liminace.itch.io/mukbang-idol",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "My Rocket Adventure!",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://markedguy.itch.io/mra",
+  "endsAt": "2026-11-02T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "NEON ROADSTER: VOID RUNNER",
@@ -2682,11 +3288,51 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "NEON TEMİZ: 2099",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://bora-studio.itch.io/neon-temizleme-2099",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "NIGHT SHIFT",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://charbelw.itch.io/night-shift",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "NIGHT SHIFT | Special offer",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://elytra-00.itch.io/special-offer-night-shift",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "NO MORE HANDS",
   "store": "itch.io",
   "kind": "game",
   "url": "https://ltbclyde.itch.io/no-more-hands",
   "endsAt": "2028-10-02T03:47:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "NeonTD: Hold the Grid",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://hoehnheim.itch.io/neontd-hold-the-grid",
+  "endsAt": "2026-11-05T05:59:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Next Time",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://quanftw.itch.io/next-time",
+  "endsAt": "2026-11-30T15:35:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
@@ -2706,10 +3352,10 @@
   "note": "100% off ($7.49 normally), verified on game page; claim to keep."
  },
  {
-  "title": "No Light Left",
+  "title": "No One Inside",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://elaypirverdiyev777.itch.io/no-light-left",
+  "url": "https://phoenixszone.itch.io/no-one-inside",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -2746,6 +3392,14 @@
   "note": "100% off ($4.99 normally), verified $0."
  },
  {
+  "title": "Omega Moon",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://saiyakuu.itch.io/full-moon",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "One Always Lives",
   "store": "itch.io",
   "kind": "game",
@@ -2766,6 +3420,14 @@
   "store": "itch.io",
   "kind": "game",
   "url": "https://s0per-neko7.itch.io/one-move-of-seed-2",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Op Space Shooter",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://vishnu-jha.itch.io/op-space-shooter",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -2794,6 +3456,38 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "PadManiaX",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://retora.itch.io/padmaniacs",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Paran",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://bluestar-games.itch.io/paran",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Perished World Merchant",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://calmed-by-the-dark-games.itch.io/perished-world-merchant",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Phantomware 0",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://eiryudev.itch.io/phantomware",
+  "endsAt": "2026-11-27T18:29:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Phase Break",
   "store": "itch.io",
   "kind": "game",
@@ -2806,6 +3500,14 @@
   "store": "itch.io",
   "kind": "game",
   "url": "https://cryptoshroud.itch.io/luminescence",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Pictureal",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://powstudio.itch.io/pictureal",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -2826,6 +3528,22 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "PlanomallyA7",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://davdion.itch.io/planomallya7",
+  "endsAt": "2026-11-02T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Pocket Words",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://simonbalint.itch.io/pocket-words",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Porky's Bloodbath",
   "store": "itch.io",
   "kind": "game",
@@ -2842,11 +3560,35 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Potion Commotion: Rainbow Edition",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://kyaniteheart.itch.io/potion-commotion",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Potion Grabber",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://caeldeth1.itch.io/potion-grabber",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Powerdown",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://cringycringe.itch.io/powerdown",
+  "endsAt": "2026-11-01T17:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Pressure Below",
   "store": "itch.io",
   "kind": "game",
   "url": "https://barhe.itch.io/pressure-below",
-  "endsAt": "2026-10-31T18:21:00Z",
+  "endsAt": "2026-11-04T18:00:00Z",
   "endsApprox": false,
   "note": "100% off ($1.20 normally), verified; sale ends 2026-10-31."
  },
@@ -2859,6 +3601,14 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Project Infinity",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://eiryudev.itch.io/project-infinity",
+  "endsAt": "2026-11-27T18:29:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Project Malice",
   "store": "itch.io",
   "kind": "game",
@@ -2867,11 +3617,11 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "Project: Depot Shift",
+  "title": "Project Wild Weasel",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://neprojects.itch.io/project-depot-shift",
-  "endsAt": "2026-11-04T17:00:00Z",
+  "url": "https://kevinpandya953.itch.io/project-wild-weasel",
+  "endsAt": "2026-11-12T18:02:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
@@ -2883,10 +3633,50 @@
   "note": "100% off ($1.00 normally), verified $0; sale ends 2026-11-04."
  },
  {
+  "title": "Pumpkill Remastered",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://cosmicraycast.itch.io/pumpkill",
+  "endsAt": "2026-11-05T06:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Quantum Enigma",
   "store": "itch.io",
   "kind": "game",
   "url": "https://wazowski8292.itch.io/quantum-enigma",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Quiet Hours",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://bora-studio.itch.io/quiet-hours",
+  "endsAt": "2026-11-01T18:23:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "RED KITE",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://roega.itch.io/red-kite",
+  "endsAt": "2026-11-04T22:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "RETRO DRIVE 84",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://saltario.itch.io/retro-drive",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Racing Legend",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://superhasanali.itch.io/racinglegend",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -2915,6 +3705,22 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Requiem Station",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://batpan-games.itch.io/requiem-station",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Retro Lane Racer",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://vishnu-jha.itch.io/retro-racer",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Return to the Backrooms",
   "store": "itch.io",
   "kind": "game",
@@ -2927,6 +3733,14 @@
   "store": "itch.io",
   "kind": "game",
   "url": "https://mando37.itch.io/revengeoftheblobstd",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Rhythm Arena",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://dania-play.itch.io/rhythm-arena",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -2948,11 +3762,27 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Road Trip to Hell",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://liminace.itch.io/road-trip-to-hell",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Road of Despair",
   "store": "itch.io",
   "kind": "game",
   "url": "https://blackdevgames.itch.io/road-of-despair",
   "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Rogeria Escape",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://xanderx555.itch.io/rogeria-escape",
+  "endsAt": "2026-11-08T21:05:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
@@ -3012,19 +3842,27 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "SABER'S LIGHT, SWORD'S SHADOW",
+  "title": "Rusty Pick",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://hungryghostgames.itch.io/saberlightswordshadow",
-  "endsAt": "2040-01-01T15:59:59Z",
-  "note": "100% off, long-running sale"
+  "url": "https://lootlurker.itch.io/rusty-pick",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "SAMHAIN",
+  "title": "SHARDFALL V1.6",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://sohogames.itch.io/samhain",
-  "endsAt": "2026-10-31T17:00:00Z",
+  "url": "https://trinhnguyen.itch.io/vega-rocks",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "SIR Trying",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://davnetics.itch.io/sirtrying",
+  "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
@@ -3044,20 +3882,12 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "SUTRA STORIES: A FATE CORE GAME",
+  "title": "SUPER Euli Beuli",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://hungryghostgames.itch.io/sutra-stories",
-  "endsAt": "2040-01-01T15:59:59Z",
-  "note": "100% off, long-running sale"
- },
- {
-  "title": "SWORD DANCE",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://hungryghostgames.itch.io/sword-dance",
-  "endsAt": "2040-01-01T15:59:59Z",
-  "note": "100% off, long-running sale"
+  "url": "https://roega.itch.io/super-euli-beuli",
+  "endsAt": "2026-11-04T22:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "Sabado: Day One",
@@ -3093,6 +3923,14 @@
   "note": "100% off, verified $0."
  },
  {
+  "title": "Side Shooter",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://maximilian.itch.io/side-shooter",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Signal Lost",
   "store": "itch.io",
   "kind": "game",
@@ -3101,12 +3939,11 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "Silent Decay",
+  "title": "Silent Still 3",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://xevorastudio.itch.io/silent-decay",
-  "endsAt": "2026-10-31T18:00:00Z",
-  "note": "100% off on itch.io (sale)"
+  "url": "https://solitarystudios.itch.io/silent-still-3",
+  "note": "100% off on itch.io (sale), claim to keep; end date unclear"
  },
  {
   "title": "Simple Tasks",
@@ -3125,11 +3962,11 @@
   "note": "100% off, verified on itch.io sale page."
  },
  {
-  "title": "Sleep Demon",
+  "title": "Slasher Circus",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://ravenhome.itch.io/sleep-demon",
-  "endsAt": "2026-11-01T11:01:00Z",
+  "url": "https://redwolfstudios-deg.itch.io/slasher-circus",
+  "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
@@ -3137,7 +3974,7 @@
   "store": "itch.io",
   "kind": "game",
   "url": "https://bennyboygames.itch.io/sleep-in-fear",
-  "endsAt": "2026-11-04T18:00:00Z",
+  "endsAt": "2026-11-07T18:00:00Z",
   "note": "100% off ($1.00 normally), verified $0; sale ends 2026-10-25."
  },
  {
@@ -3163,6 +4000,30 @@
   "url": "https://poisonicestudios.itch.io/smiling-terror",
   "endsAt": "2026-11-04T23:00:00Z",
   "note": "100% off, verified on itch.io sale page."
+ },
+ {
+  "title": "Snakehead",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://woodchair.itch.io/snakehead",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Snowpine Strangers: FREE DEMO",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://fenixapple.itch.io/snowpine-strangers-demo",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "So Perfect I Could Eat You Up",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://liminace.itch.io/so-perfect-i-could-eat-you-up",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "Solace Inc.",
@@ -3213,18 +4074,34 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "Spirit Box",
+  "title": "Spectrewoods",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://tattershallstudios.itch.io/spirit-box",
-  "endsAt": "2026-11-01T05:00:00Z",
-  "note": "100% off ($1.00 normally), verified $0; sale ends 2026-11-01."
+  "url": "https://thewgreen.itch.io/spectrewoods",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Spirit Night",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://kyaniteheart.itch.io/spirit-night",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "Splat!",
   "store": "itch.io",
   "kind": "game",
   "url": "https://comix-studios.itch.io/splat",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Stalker",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://tgtstudio.itch.io/stalker",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -3245,10 +4122,34 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Stranded Reborn",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://promodders-games.itch.io/stranded-reborn",
+  "endsAt": "2026-11-30T10:59:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Street Restaurant Simulator",
   "store": "itch.io",
   "kind": "game",
   "url": "https://jadu-game-studio.itch.io/street-restaurant-simulator",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Sunbeams",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://kyaniteheart.itch.io/sunbeams",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Sunny Shell Resort",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://manioora.itch.io/sunny-shell-resort",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -3265,6 +4166,22 @@
   "store": "itch.io",
   "kind": "game",
   "url": "https://soowekgames.itch.io/survivor",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Swarm Saucers",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://maximilian.itch.io/swarm-saucers",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Sword Odyssey – C64 Style",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://tansoft.itch.io/sword-odyssey-c64-style",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -3293,12 +4210,12 @@
   "note": "100% off, verified $0."
  },
  {
-  "title": "THE JOYRIDE EVERLASTING",
+  "title": "THE NIGHT TICKLER",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://hungryghostgames.itch.io/the-joyride-everlasting",
-  "endsAt": "2040-01-01T15:59:59Z",
-  "note": "100% off, long-running sale"
+  "url": "https://requiem-games-xoxo.itch.io/the-night-tickler",
+  "endsAt": "2026-11-08T00:26:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "TICK-TACK - platformer",
@@ -3349,6 +4266,14 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Tekkk[Prototype]",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://abc3dz.itch.io/tekkk",
+  "endsAt": "2026-11-07T04:05:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Terminal: The Brain Founding",
   "store": "itch.io",
   "kind": "game",
@@ -3373,14 +4298,6 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "The Black Within",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://waleedzo.itch.io/the-black-within",
-  "endsAt": "2026-10-31T20:55:00Z",
-  "note": "100% off ($9.99 normally), verified $0; sale ends 2026-10-24."
- },
- {
   "title": "The Broken Horn",
   "store": "itch.io",
   "kind": "game",
@@ -3389,10 +4306,34 @@
   "note": "100% off itch.io Halloween sale (Download or claim)."
  },
  {
+  "title": "The Burning Locks",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://maximilian.itch.io/the-burning-locks",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "The Cardinal Park Case - Chapters 1-4",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://liminace.itch.io/the-cardinal-park-case-chapters-1-4",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "The Copper Hill",
   "store": "itch.io",
   "kind": "game",
   "url": "https://p3trol.itch.io/the-copper-hill",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "The Crumbling Town",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://zzombenn.itch.io/the-crumbling-town",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -3414,12 +4355,28 @@
   "note": "100% off ($1.00 normally), verified; sale ends 2026-10-22."
  },
  {
-  "title": "The Green Light",
+  "title": "The Flight of Silent Bob",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://waleedzo.itch.io/the-green-light",
-  "endsAt": "2026-10-31T20:55:00Z",
-  "note": "100% off ($9.99 normally), verified $0; sale ends 2026-10-24."
+  "url": "https://maximilian.itch.io/the-flight-of-silent-bob",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "The Hermitage",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://onetoonegames.itch.io/the-hermitage",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "The Killer Bunny",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://northsignal.itch.io/the-killer-bunny",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "The Last Crumb",
@@ -3478,6 +4435,14 @@
   "note": "100% off itch.io sale (Download or claim). $1.99 value."
  },
  {
+  "title": "The Murder Mass",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://ansomnia.itch.io/the-murder-mass",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "The Night Upon Us: Taped Away",
   "store": "itch.io",
   "kind": "game",
@@ -3494,6 +4459,14 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "The Parking",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://tgtstudio.itch.io/the-parking",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "The Postman",
   "store": "itch.io",
   "kind": "game",
@@ -3502,19 +4475,50 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "The Wind Turbine",
+  "title": "The Witch's Flying Cat",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://jeyers-development.itch.io/the-wind-turbine",
-  "endsAt": "2026-10-31T16:00:00Z",
-  "endsApprox": false,
-  "note": "100% off ($5.00 normally), verified; sale ends 2026-10-31."
+  "url": "https://ler-games.itch.io/the-witchs-flying-cat",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "The Woods",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://alexbaza.itch.io/the-woods",
+  "endsAt": "2029-12-24T16:01:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "The Zombie Santa",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://chriv-games-horror.itch.io/the-zombie-santa",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "The backrooms: Uncovered",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://magnus-froelund.itch.io/the-backrooms",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "The end of Childhood",
   "store": "itch.io",
   "kind": "game",
   "url": "https://xeniaexe.itch.io/the-end-of-childhood",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "They Live",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://pamukdevstuffs.itch.io/they-live",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -3567,6 +4571,14 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Tofu Run: Remastered",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://hubtub.itch.io/tofurun",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Token Maxing",
   "store": "itch.io",
   "kind": "game",
@@ -3583,12 +4595,36 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Trick or Treat with Twitch Chat",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://fruitcakes3317.itch.io/trickortreatwithtwitchchat",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Trox The Reversal",
   "store": "itch.io",
   "kind": "game",
   "url": "https://troj4nblazing.itch.io/trox-the-reversal",
-  "endsAt": "2026-10-31T13:57:00Z",
+  "endsAt": "2026-11-07T13:30:00Z",
   "note": "100% off on itch.io (sale)"
+ },
+ {
+  "title": "Tuned to Your Heart",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://kyaniteheart.itch.io/tuned-to-your-heart",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Tux Kart 3d",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://vishnu-jha.itch.io/tux-kart-3d",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "Tux kart",
@@ -3607,10 +4643,26 @@
   "note": "100% off, verified $0."
  },
  {
+  "title": "UNAWEKE",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://play-at-work.itch.io/unaweke",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Until It’s Undone: Unmastered",
   "store": "itch.io",
   "kind": "game",
   "url": "https://apehardware.itch.io/uh-oh-here-we-go-again",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Untitled Gore Game",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://magnus-froelund.itch.io/untitled-gore-game",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -3623,12 +4675,12 @@
   "note": "100% off ($5.00 normally), verified on game page; claim to keep."
  },
  {
-  "title": "VDist Classic FREE & PRO",
+  "title": "Vault Of The Sun : Episode 1 (EP 2 SOON!!!)",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://violinmelody.itch.io/vdist-classic",
-  "endsAt": "2029-12-31T06:00:00Z",
-  "note": "100% off, long-running sale"
+  "url": "https://kakaritogames.itch.io/vault-of-the-sun-ep1",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "Very Realistic Game Dev Simulator",
@@ -3640,12 +4692,20 @@
   "note": "100% off ($1.99 normally), verified; sale ends 2026-10-22."
  },
  {
-  "title": "WARM",
+  "title": "Viral Survival",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://katabatic-vector.itch.io/warm",
-  "endsAt": "2026-11-01T00:10:00Z",
-  "note": "100% off ($4.99 normally), verified $0; sale ends 2026-11-01."
+  "url": "https://eiryudev.itch.io/viral-survival",
+  "endsAt": "2026-11-27T18:29:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Virtual Pet Caterpillar 1.0",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://unaux-25917242.itch.io/virtual-pet-caterpillar-10",
+  "endsAt": "2026-11-30T17:02:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "WELCOME HOME.exe",
@@ -3656,20 +4716,20 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "Wally The Seal 2",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://guncatgames.itch.io/wally-the-seal2",
-  "endsAt": "2026-10-31T17:08:00Z",
-  "note": "100% off, verified."
- },
- {
   "title": "Ward Zero",
   "store": "itch.io",
   "kind": "game",
   "url": "https://zachariah69.itch.io/ward-zero",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off (was $1.99); end time not shown"
+ },
+ {
+  "title": "Warrior's Ascent",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://play-at-work.itch.io/warriorsascent",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "Watermelon FruitRush",
@@ -3688,10 +4748,26 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Weapon Rearing",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://jiyutorisei.itch.io/weapon-rearing",
+  "endsAt": "2026-11-01T15:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Welcome",
   "store": "itch.io",
   "kind": "game",
   "url": "https://jadu-game-studio.itch.io/welcome",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "When it Rains Red",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://liminace.itch.io/when-it-rains-red",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -3704,6 +4780,14 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
+  "title": "Winter Magic",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://kyaniteheart.itch.io/winter-magic",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "Winter ebay post",
   "store": "itch.io",
   "kind": "game",
@@ -3712,20 +4796,27 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "Wolf Game",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://jaakezzz.itch.io/wolf-game",
-  "endsAt": "2026-11-01T03:59:00Z",
-  "endsApprox": false,
-  "note": "100% off ($1.00 normally), verified; sale ends 2026-11-01."
- },
- {
   "title": "Worldseed",
   "store": "itch.io",
   "kind": "game",
   "url": "https://generic-king.itch.io/worldseed",
   "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Worldstate",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://zvenyyy.itch.io/worldstate",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Wreck Club",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://enmanuel-gutierrez.itch.io/wreck-club",
+  "endsAt": "2026-11-04T17:42:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
@@ -3745,12 +4836,12 @@
   "note": "100% off on itch.io (sale), claim to keep"
  },
  {
-  "title": "Zaglushka",
+  "title": "Zombie Apocalypse",
   "store": "itch.io",
   "kind": "game",
-  "url": "https://stabidi-chan.itch.io/zaglushka",
+  "url": "https://maximilian.itch.io/zombie-apocalypse",
   "endsAt": "2026-11-04T18:00:00Z",
-  "note": "100% off itch.io sale (Download or claim). $1.00 value."
+  "note": "100% off on itch.io (sale), claim to keep"
  },
  {
   "title": "Zombie Horde.io",
@@ -3773,6 +4864,30 @@
   "store": "itch.io",
   "kind": "game",
   "url": "https://abattikhi.itch.io/zombie-lost-memories",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "bable playground exclusive edition",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://blackdevgames.itch.io/bable-playground-exclusive-edition",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "coffee boy",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://bee-tea.itch.io/coffeeboy",
+  "endsAt": "2026-12-16T05:59:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "de citri natura",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://nalio.itch.io/de-citri-natura",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -3801,10 +4916,34 @@
   "note": "100% off, verified."
  },
  {
+  "title": "my chair business!",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://markedguy.itch.io/mcb",
+  "endsAt": "2026-11-02T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "rainy day",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://bee-tea.itch.io/rainyday",
+  "endsAt": "2026-12-16T05:59:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
   "title": "skl",
   "store": "itch.io",
   "kind": "game",
   "url": "https://thewgreen.itch.io/skl",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "stack up tofupi!",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://closuu.itch.io/stack-up-tofupi",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
@@ -3821,6 +4960,38 @@
   "store": "itch.io",
   "kind": "game",
   "url": "https://soowekgames.itch.io/mij-wyvern",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Τhe snowman ate you",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://chriv-games-horror.itch.io/the-snowman-ate-you",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "АкиШиро/Akishiro",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://stabilisjan.itch.io/akishiro",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Акиширо/AkiShiro 2 (demo)",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://stabilisjan.itch.io/akishiro2",
+  "endsAt": "2026-11-04T18:00:00Z",
+  "note": "100% off on itch.io (sale), claim to keep"
+ },
+ {
+  "title": "Заглушка",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://stabilisjan.itch.io/zaglushka",
   "endsAt": "2026-11-04T18:00:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
  },
