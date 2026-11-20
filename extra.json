@@ -106,12 +106,10 @@
   "note": "My Darkest Witch, ANCIENT EVIL, Last Room, Best Plumber, Battle Ram, Sausage Hunter, Leaper, Die Young: Prologue."
  },
  {
-  "title": "Ad Infinitum",
+  "title": "CLeM",
   "store": "Prime Gaming",
   "kind": "game",
-  "url": "https://luna.amazon.de/claims/ad-infinitum-epic/dp/amzn1.pg.item.69de011b-6575-41ab-9964-971e59cf7457",
-  "endsAt": "2026-11-25T23:59:00Z",
-  "endsApprox": true,
+  "url": "https://luna.amazon.de/claims/clem-epic/dp/amzn1.pg.item.a5c7d537-4c60-4940-86b8-0d1c13db9163",
   "requires": "Prime",
   "note": "Epic code (Luna)."
  },
@@ -148,16 +146,6 @@
   "note": "Amazon Games App code (Luna). USK 16."
  },
  {
-  "title": "Time Travel: Escape Room Game",
-  "store": "Prime Gaming",
-  "kind": "game",
-  "url": "https://luna.amazon.de/claims/time-travel-escape-room-game-legacy/dp/amzn1.pg.item.c3af790f-8ce0-42b2-8c16-ebecb97303f5",
-  "endsAt": "2026-11-25T23:59:00Z",
-  "endsApprox": true,
-  "requires": "Prime",
-  "note": "Legacy Games code (Luna)."
- },
- {
   "title": "Trash Goblin",
   "store": "Prime Gaming",
   "kind": "game",
@@ -170,6 +158,14 @@
   "store": "Prime Gaming",
   "kind": "game",
   "url": "https://luna.amazon.de/claims/wrc-generations-epic/dp/amzn1.pg.item.59a0703f-be28-476e-9160-8e56e257dee5",
+  "requires": "Prime",
+  "note": "Epic code (Luna)."
+ },
+ {
+  "title": "Werewolf: The Apocalypse - Earthblood",
+  "store": "Prime Gaming",
+  "kind": "game",
+  "url": "https://luna.amazon.de/claims/werewolf-the-apocalypse-earthblood-epic/dp/amzn1.pg.item.51cac85b-21fe-4e69-b048-3c70dfaf50d3",
   "requires": "Prime",
   "note": "Epic code (Luna)."
  },
@@ -248,7 +244,7 @@
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/albion-online",
-  "endsAt": "2026-11-20T09:29:59Z",
+  "endsAt": "2026-11-21T09:29:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -268,11 +264,11 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Black Desert Twitch drops (1 drops)",
+  "title": "Black Desert Twitch drops (2 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/black-desert",
-  "endsAt": "2026-11-20T11:59:59Z",
+  "endsAt": "2026-11-21T11:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -348,11 +344,11 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Don't Starve Together Twitch drops (3 drops)",
+  "title": "EA Sports College Football 27 Twitch drops (4 drops)",
   "store": "Twitch",
   "kind": "drop",
-  "url": "https://twitchdrops.app/game/dont-starve-together",
-  "endsAt": "2026-11-19T16:59:59Z",
+  "url": "https://twitchdrops.app/game/ea-sports-college-football-27",
+  "endsAt": "2026-11-23T18:29:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -372,11 +368,11 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Escape from Tarkov Twitch drops (4 drops)",
+  "title": "Escape from Tarkov Twitch drops (5 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/escape-from-tarkov",
-  "endsAt": "2026-11-19T14:59:59Z",
+  "endsAt": "2026-11-21T14:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -384,7 +380,15 @@
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/eternal-return",
-  "endsAt": "2026-11-20T19:59:59Z",
+  "endsAt": "2026-11-21T19:59:59Z",
+  "note": "Watch eligible streams with your Twitch account linked to the game"
+ },
+ {
+  "title": "Fishing Planet Twitch drops (10 drops)",
+  "store": "Twitch",
+  "kind": "drop",
+  "url": "https://twitchdrops.app/game/fishing-planet",
+  "endsAt": "2026-11-30T09:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -412,7 +416,7 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Grand Theft Auto VI Twitch drops (13 drops)",
+  "title": "Grand Theft Auto VI Twitch drops (14 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/grand-theft-auto-vi",
@@ -468,11 +472,11 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "MARVEL Contest of Champions Twitch drops (6 drops)",
+  "title": "MARVEL Contest of Champions Twitch drops (9 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/marvel-contest-of-champions",
-  "endsAt": "2026-11-20T16:44:59Z",
+  "endsAt": "2026-11-27T16:44:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -481,6 +485,14 @@
   "kind": "drop",
   "url": "https://twitchdrops.app/game/marvel-strike-force",
   "endsAt": "2026-11-23T20:59:59Z",
+  "note": "Watch eligible streams with your Twitch account linked to the game"
+ },
+ {
+  "title": "Madden NFL 27 Twitch drops (4 drops)",
+  "store": "Twitch",
+  "kind": "drop",
+  "url": "https://twitchdrops.app/game/madden-nfl-27",
+  "endsAt": "2026-11-23T18:29:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -524,11 +536,11 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Mir Korabley Twitch drops (2 drops)",
+  "title": "Mir Korabley Twitch drops (3 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/mir-korabley",
-  "endsAt": "2026-11-20T14:59:59Z",
+  "endsAt": "2026-11-27T14:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -604,11 +616,11 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Once Human Twitch drops (4 drops)",
+  "title": "Once Human Twitch drops (5 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/once-human",
-  "endsAt": "2026-12-03T23:29:59Z",
+  "endsAt": "2026-12-16T23:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -680,7 +692,15 @@
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/rise-online",
-  "endsAt": "2026-11-19T17:56:59Z",
+  "endsAt": "2026-11-20T17:56:59Z",
+  "note": "Watch eligible streams with your Twitch account linked to the game"
+ },
+ {
+  "title": "Rocket League Twitch drops (3 drops)",
+  "store": "Twitch",
+  "kind": "drop",
+  "url": "https://twitchdrops.app/game/rocket-league",
+  "endsAt": "2026-11-22T20:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -700,11 +720,11 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "Shakes and Fidget Twitch drops (7 drops)",
+  "title": "Shakes and Fidget Twitch drops (8 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/shakes-and-fidget",
-  "endsAt": "2026-11-19T22:58:59Z",
+  "endsAt": "2026-11-22T22:58:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -713,6 +733,14 @@
   "kind": "drop",
   "url": "https://twitchdrops.app/game/shroud-of-the-avatar-forsaken-virtues",
   "endsAt": "2026-11-25T12:50:59Z",
+  "note": "Watch eligible streams with your Twitch account linked to the game"
+ },
+ {
+  "title": "Splinterlands Twitch drops (1 drops)",
+  "store": "Twitch",
+  "kind": "drop",
+  "url": "https://twitchdrops.app/game/splinterlands",
+  "endsAt": "2026-12-01T16:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -728,7 +756,7 @@
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/stonestorm",
-  "endsAt": "2026-11-20T17:58:59Z",
+  "endsAt": "2026-11-27T17:58:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -752,7 +780,15 @@
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/the-quinfall",
-  "endsAt": "2026-11-19T23:59:59Z",
+  "endsAt": "2026-11-20T23:59:59Z",
+  "note": "Watch eligible streams with your Twitch account linked to the game"
+ },
+ {
+  "title": "UFL Twitch drops (4 drops)",
+  "store": "Twitch",
+  "kind": "drop",
+  "url": "https://twitchdrops.app/game/ufl",
+  "endsAt": "2026-11-25T23:58:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -761,6 +797,14 @@
   "kind": "drop",
   "url": "https://twitchdrops.app/game/wardogs",
   "endsAt": "2026-11-26T09:59:59Z",
+  "note": "Watch eligible streams with your Twitch account linked to the game"
+ },
+ {
+  "title": "War Thunder Twitch drops (4 drops)",
+  "store": "Twitch",
+  "kind": "drop",
+  "url": "https://twitchdrops.app/game/war-thunder",
+  "endsAt": "2026-11-26T12:02:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -780,11 +824,11 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "World of Tanks Twitch drops (2 drops)",
+  "title": "World of Tanks Twitch drops (3 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/world-of-tanks",
-  "endsAt": "2026-11-20T15:59:59Z",
+  "endsAt": "2026-11-23T15:59:59Z",
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
@@ -804,7 +848,7 @@
   "note": "Watch eligible streams with your Twitch account linked to the game"
  },
  {
-  "title": "World of Warships Twitch drops (4 drops)",
+  "title": "World of Warships Twitch drops (3 drops)",
   "store": "Twitch",
   "kind": "drop",
   "url": "https://twitchdrops.app/game/world-of-warships",
@@ -998,14 +1042,6 @@
   "url": "https://theo-tgames.itch.io/dog-show",
   "endsAt": "2026-11-30T13:15:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
- },
- {
-  "title": "Dead Signal: Last Hope — Part One",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://penleygames.itch.io/dead-signal-last-hope",
-  "endsAt": "2026-11-19T19:34:00Z",
-  "note": "100% off on itch.io, verified $0 2026-11-17; claim to keep."
  },
  {
   "title": "Delivery Driver Massacre",
@@ -1272,6 +1308,14 @@
   "note": "Pay what you want, even $0: take all 116 items free. Click Get the Bundle, then 'No thanks, just take me to the downloads'."
  },
  {
+  "title": "KOURUSH: 3D Color Matching Tunnel Runner",
+  "store": "itch.io",
+  "kind": "game",
+  "url": "https://sderfxdev.itch.io/kourush",
+  "endsAt": "2026-11-23T21:00:00Z",
+  "note": "100% off, verified $0 on 2026-11-20; claim to keep."
+ },
+ {
   "title": "Kill The Creator",
   "store": "itch.io",
   "kind": "game",
@@ -1473,14 +1517,6 @@
   "url": "https://nilefox717.itch.io/owner",
   "endsAt": "2028-12-02T14:43:00Z",
   "note": "100% off on itch.io (sale), claim to keep"
- },
- {
-  "title": "Penance",
-  "store": "itch.io",
-  "kind": "game",
-  "url": "https://pehriska.itch.io/penance",
-  "endsAt": "2026-11-19T16:45:00Z",
-  "note": "100% off ($1.00 normally), verified $0 on 2026-11-19; claim to keep."
  },
  {
   "title": "Pigeon West: Call Of Gun. ISEKAI",
